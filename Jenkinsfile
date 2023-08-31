@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image '212620447/jfrog:1'
+        docker { image '212620447/sre-assighment:1'
                  args '--privileged'  
                  label 'zip-job-docker' 
          }
